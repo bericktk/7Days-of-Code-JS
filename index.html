@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Days of Code JS</title>
+</head>
+<body>
+    
+    <h1>Cadastro de Pessoas</h1>
+    <form class="form js-form">
+        <label for="name">
+            Nome
+            <input class="form-field js-field" id="name" maxlength="120" minlength="3" pattern="[a-zA-Z]+" name="name" type="text" title="Dgite seu nome, apenas letras e acima de 3 caracteres!" required>
+        </label>
+        <label for="birth-date">
+            Data de Nascimento
+            <input class="form-field js-field" id="birth-date" name="birth-date" required type="date" pattern="\d{2}/\d{2}/\d{4}" title="A data de Nascimento deve ser no formato Dia/Mês/Ano">
+        </label>
+        <button type="submit">Salvar</button>
+    </form>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
